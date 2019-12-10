@@ -15,8 +15,14 @@ function App() {
        setQuarter(quarter + 1) 
     } else {
       setQuarter(1)
+      setAwayScore(0)
+      setHomeScore(0)
     }
   } 
+
+  
+
+ 
 
   return (
     <div className="container">

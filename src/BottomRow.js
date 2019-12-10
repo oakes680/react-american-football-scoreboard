@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 
- function BottomRow({dog}) {
+ function BottomRow({dog}, apple) {
  
   return (
     <div className="bottomRow">
